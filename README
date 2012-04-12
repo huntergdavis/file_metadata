@@ -1,0 +1,50 @@
+File MetaData Database Project
+Copyright Hunter Davis 2003
+
+File Last Updated September 25 2003
+
+
+README:
+
+What is it:
+
+Databaser - the file metadata database project.  Sounds complicated right?
+Don't worry!  It's really simple.  Here's the gist of it, associate 
+keywords(metadata) with files then search for keywords to return files.
+The next version of windows filesystem(winFS) uses a similar approach
+to metadata storage, why not get a handle on it now.  This program is more
+a proof of concept than a enterprise ready application.  That said, I have
+found a few interesting uses for this application.  Example: Using metadata to 
+organize divx movies.  Want to watch an action movie?  A romance?  Search and see.
+
+
+Instructions for Use:
+
+Ok there are basically 3 steps to completely mastering this application.
+1.  Associating metadata with files.
+2.  Searching metadata.
+3.  Opening files.
+
+Step 1:
+Click the add file to database button.
+Select a file.
+Enter metadata into the metadata entry box, keywords seperated by spaces.
+
+Step 2:
+Back on the main screen, enter your search keywords.
+Just like google, keyword searches default to "AND inclusive" type searches!
+This means that if you search for "poo stuff" and there is a file with metadata
+"poo" it will not be displayed, but if that file had "poo crap stuff" then it
+would be displayed.  See how that works?  Try it out for yourself.
+
+Step 3:
+To open a file, either highlight the file and click "launch file" or
+double-click on the file in the results view.
+
+
+Recovering From Disaster, and The Internals of Databaser:
+
+Ok, so let's say you want to clear out your database, view the internals, 
+or have a fresh install.. No problem!  Databaser fills up an access database
+with all the metadata information (metadata.mdb) and all you need to do is
+edit that file, or copy the metadata virgin.mdb to metadata.mdb to clear.

@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: databaser - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/databaser.res" /d "NDEBUG" /d "_AFXDLL" "C:\database\databaser\databaser.rc"" 
+Creating temporary file "C:\DOCUME~1\HDAVIS\LOCALS~1\Temp\RSP15EC.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/databaser.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\database\databaser\addfile.cpp"
+"C:\database\databaser\databaser.cpp"
+"C:\database\databaser\databaserDlg.cpp"
+"C:\database\databaser\DBmetadata.cpp"
+"C:\database\databaser\hunterstringcollection.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\HDAVIS\LOCALS~1\Temp\RSP15EC.tmp" 
+Creating temporary file "C:\DOCUME~1\HDAVIS\LOCALS~1\Temp\RSP15ED.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/databaser.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\database\databaser\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\HDAVIS\LOCALS~1\Temp\RSP15ED.tmp" 
+Creating temporary file "C:\DOCUME~1\HDAVIS\LOCALS~1\Temp\RSP15EE.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/databaser.pdb" /machine:I386 /out:"Release/databaser.exe" 
+.\Release\addfile.obj
+.\Release\databaser.obj
+.\Release\databaserDlg.obj
+.\Release\DBmetadata.obj
+.\Release\hunterstringcollection.obj
+.\Release\StdAfx.obj
+.\Release\databaser.res
+]
+Creating command line "link.exe @C:\DOCUME~1\HDAVIS\LOCALS~1\Temp\RSP15EE.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+addfile.cpp
+databaser.cpp
+databaserDlg.cpp
+DBmetadata.cpp
+hunterstringcollection.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+databaser.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
